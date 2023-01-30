@@ -1,0 +1,150 @@
+enter main
+&argc=ffb367e0 argv=ffb36874 env=ffb36888
+&a=ffb3679c &b=ffb367a0 &c=ffb367a4
+argc= 4argv[0] = -5016175
+argv[1] = -5016167
+argv[2] = -5016163
+argv[3] = -5016159
+enter A
+&d=ffb36750 &e=ffb36754 &f=ffb36758
+enter B
+&g=ffb36720 &h=ffb36724 &i=ffb36728
+enter C
+&u=ffb366e8 &v=ffb366ec &w=ffb366f0 &i=ffb366f4 &p=ffb36714
+
+FP = ebp = ffb36708
+Stack frame linked list
+ffb36708 -> ffb36738 -> ffb36768 -> ffb367c8 ->
+
+Stack contents
+ffb366e8 a          u=10
+ffb366ec b          v=11
+ffb366f0 c          w=12
+ffb366f4 3
+ffb366f8 ffb366f8
+ffb366fc ed1aee00
+ffb36700 ffb367e0
+ffb36704 565c4fcc
+ffb36708 ffb36738  FP *FP
+ffb3670c 565c241a  retPC
+ffb36710 7
+ffb36714 8
+ffb36718 ffb36724
+ffb3671c ffb36728
+ffb36720 7         g=7
+ffb36724 8         h=8
+ffb36728 9         i=9
+ffb3672c ed1aee00
+ffb36730 ffb367e0
+ffb36734 565c4fcc
+ffb36738 ffb36768
+ffb3673c 565c237b
+ffb36740 4
+ffb36744 5
+ffb36748 ffb36754
+ffb3674c ffb36758
+ffb36750 4          d=4
+ffb36754 5          e=5
+ffb36758 6          f=6
+ffb3675c ed1aee00
+ffb36760 ffb367e0
+ffb36764 565c4fcc
+ffb36768 ffb367c8   FP *FP
+ffb3676c 565c22d2   retPC
+ffb36770 1
+ffb36774 2
+ffb36778 ffb375a1
+ffb3677c ffb367a4
+ffb36780 0
+ffb36784 f7fba000
+ffb36788 ffb36888
+ffb3678c ffb36874
+ffb36790 f7fba000
+ffb36794 f7fe12d0
+ffb36798 0
+ffb3679c 1          a=1
+ffb367a0 2          b=2
+ffb367a4 3          c=3
+ffb367a8 4
+ffb367ac ed1aee00
+ffb367b0 4
+ffb367b4 ffb36874
+ffb367b8 ffb36888
+ffb367bc ffb367e0
+ffb367c0 0
+ffb367c4 f7fba000   Fp *FP
+ffb367c8 0
+ffb367cc f7deced5
+ffb367d0 f7fba000
+ffb367d4 f7fba000
+ffb367d8 0
+ffb367dc f7deced5
+ffb367e0 4          argc
+ffb367e4 ffb36874   argv location
+ffb367e8 ffb36888   env location
+ffb367ec ffb36804
+ffb367f0 f7fba000
+ffb367f4 f7ffc000
+ffb367f8 ffb36858
+ffb367fc 0
+ffb36800 f7ffc990
+ffb36804 0
+ffb36808 f7fba000
+ffb3680c f7fba000
+ffb36810 0
+ffb36814 737a9fb4
+ffb36818 a82879a4
+ffb3681c 0
+ffb36820 0
+ffb36824 0
+ffb36828 0
+ffb3682c 0
+ffb36830 0
+ffb36834 0
+ffb36838 f7fe117d
+ffb3683c 565c4fcc
+ffb36840 4
+ffb36844 565c20a0
+ffb36848 0
+ffb3684c 565c20d5
+ffb36850 565c21dd
+ffb36854 4
+ffb36858 ffb36874
+ffb3685c 565c25b0
+ffb36860 565c2620
+ffb36864 f7fe12d0
+ffb36868 ffb3686c
+ffb3686c 1c
+ffb36870 4
+ffb36874 ffb37591
+ffb36878 ffb37599
+ffb3687c ffb3759d
+ffb36880 ffb375a1
+ffb36884 0
+ffb36888 ffb375a7
+ffb3688c ffb375b7
+ffb36890 ffb375ce
+ffb36894 ffb375e3
+ffb36898 ffb37624
+ffb3689c ffb37635
+ffb368a0 ffb3764c
+ffb368a4 ffb37660
+ffb368a8 ffb3766d
+ffb368ac ffb3768f
+ffb368b0 ffb37c71
+ffb368b4 ffb37c93
+ffb368b8 ffb37ca7
+ffb368bc ffb37cc7
+ffb368c0 ffb37cd5
+ffb368c4 ffb37cdd
+ffb368c8 ffb37ce5
+ffb368cc ffb37d26
+ffb368d0 ffb37fa4
+ffb368d4 ffb37fb4
+ffb368d8 ffb37fbe
+ffb368dc 0
+ffb368e0 20
+ffb368e4 f7fce540
+exit B
+exit A
+exit main
